@@ -1,9 +1,9 @@
 .calculator {
   width: 20rem;
-  height: 30rem;
+  height: 28rem;
   background-color: lightcyan;
   display: grid;
-  padding: 1%;
+  
   position: absolute;
   top: 0;
   bottom: 0;
@@ -25,13 +25,15 @@
 }
 .keys-operators {
   grid-area: keys-operators;
+  background: linear-gradient(0.35turn, #fbab7e, #f7ce68);
+
 }
 .keys-function {
   grid-area: keys-function;
 }
 .calculator-keypad {
-  padding-top: 0.3rem;
-  background-color: lightblue;
+  /* padding-top: 0.3rem; */
+  /* background-color: lightblue; */
   display: grid;
   grid-template-columns: repeat(4, 5rem);
   grid-template-rows: repeat(5, 5rem);
@@ -44,6 +46,7 @@
   padding-right: 10%;
   font-weight: bold;
   font-size: xx-large;
+  background: linear-gradient(0.35turn, #fbab7e, #f7ce68);
 }
 
 .result {
